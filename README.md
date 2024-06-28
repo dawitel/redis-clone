@@ -13,9 +13,13 @@ The entry point for this Redis implementation is in `app/server.go`:
 
 ```sh
 git clone https://github.com/dawitel/redis-clone # any msg
+```
+```sh
 cd redis-clone
-
+```
 
 1. Ensure you have `go (1.19)` installed locally
-2. Run `./spawn_redis_server.sh` to run your Redis server, which is implemented
-   in `app/server.go`.
+2. Run this command to run the Redis server, which is implemented in `app/server.go`.
+   ```sh
+   ./spawn_redis_server.sh
+   ```
